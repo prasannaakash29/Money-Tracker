@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="125" height="60" viewBox="0 0 125 60">
+  <g id="Group_450" data-name="Group 450" transform="translate(-13259 -6559)">
+    <g id="noun_profile_1467620" transform="translate(13312 6559)">
+      <g id="Group_183" data-name="Group 183" transform="translate(0 0)">
+        <path id="Path_47" data-name="Path 47" d="M33.765,7A3.777,3.777,0,0,0,30,10.765V12.02a3.782,3.782,0,0,0,3.765,3.787H35.02a3.782,3.782,0,0,0,3.787-3.765V10.787A3.782,3.782,0,0,0,35.042,7Zm3.916,3.765V12.02a2.631,2.631,0,0,1-2.639,2.6H33.787a2.428,2.428,0,0,1-2.617-2.6V10.765a2.565,2.565,0,0,1,2.617-2.713h1.255A2.8,2.8,0,0,1,37.68,10.765Z" transform="translate(-25.377 -7)" fill="#fff"/>
+        <path id="Path_48" data-name="Path 48" d="M9,59.4a.712.712,0,0,0,.715.736c.331-.006.607-.273.607-.758V58.319a4.835,4.835,0,0,1,4.93-5.125H20.8c2.88-.117,5.045,2.637,5.045,5.147V59.4a.609.609,0,0,0,.625.677c.3-.006.582-.214.582-.7V58.319A6.291,6.291,0,0,0,20.8,52H15.253A6.291,6.291,0,0,0,9,58.319Z" transform="translate(-9 -42.093)" fill="#fff"/>
+      </g>
+    </g>
+    <text id="My_Account" data-name="My Account" transform="translate(13259 6612)" fill="#fff" font-size="21" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">My Account</tspan></text>
+  </g>
+</svg>
