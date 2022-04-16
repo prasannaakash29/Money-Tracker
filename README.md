@@ -1,6 +1,6 @@
-# BudgetBox
+# Money Tracker
 This project is an online ledger to help you track your expenditure and income accurately and effectively monitor your spending. It is created in a user-friendly manner are diagrammatic and graphical representations to enhance your understanding, save you time from the tedious process of bookkeeping, giving you the ability to sync and manage your entire bookkeeping in a single app. 
-[Live Heroku Deployment](https://frontend-count.herokuapp.com)
+[Live Heroku Deployment]()
 
 # Getting Started with Create React App
 
