@@ -9,7 +9,7 @@ Check out [FRONTEND LIVE DEMO](https://money-tracker01.netlify.app/) here!!
 # Tech used
   * Frontend : React & Redux
   * Backend : Django
-# How to Install
+# How to Install ?
   1. Git Clone
 
     git clone https://github.com/prasannaakash29/Money-Tracker.git
