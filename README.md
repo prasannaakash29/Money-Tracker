@@ -1,74 +1,36 @@
-# BudgetBox
+# Money Tracker
 This project is an online ledger to help you track your expenditure and income accurately and effectively monitor your spending. It is created in a user-friendly manner are diagrammatic and graphical representations to enhance your understanding, save you time from the tedious process of bookkeeping, giving you the ability to sync and manage your entire bookkeeping in a single app. 
-[Live Heroku Deployment](https://frontend-count.herokuapp.com)
 
-# Getting Started with Create React App
+# Live Demo
+  This App uses a Heroku free plan, so I am afraid that it takes time to load the pages.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Check out [FRONTEND LIVE DEMO](https://money-tracker01.netlify.app/) here!!
 
-## Available Scripts
+# Tech used
+  * Frontend : React & Redux
+  * Backend : Django
+# How to Install
+  1. Git Clone
 
-In the project directory, you can run:
+    git clone https://github.com/prasannaakash29/Money-Tracker.git
 
-### `npm start`
+  2. Backend setting
+     cd backend
+     Python -m venv env
+     (For Mac) source env/bin/activate
+     (For Windows) env/Scripts\activate
+     pip install -r requirements.txt
+     python manage.py makemigrations
+     python manage.py migrate
+     python manage.py runserver
+     # Open http://127.0.0.1:8000/posts/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+     # To have dummy data for testing run:
+    python manage.py fixtures/dummy-data.json
+  
+  
+3. Frontend setting
+    cd frontend
+    npm install
+    npm start
+    # Open http://127.0.0.1:3000/
